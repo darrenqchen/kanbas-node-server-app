@@ -31,4 +31,5 @@ app.use(express.json());
 Lab5(app);
 Hello(app);
 UserRoutes(app);
+CourseRoutes(app);
 app.listen(process.env.PORT || 4000)
